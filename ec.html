@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Please fill all the reured fields
+    </h2>
+    <form id="register-form">
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username"><br><br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email"><br><br>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password"><br><br>
+      <label for="confirm-password">Confirm Password:</label>
+      <input type="password" id="confirm-password" name="confirm-password"><br><br>
+      <label for="phone">Phone:</label>
+      <input type="tel" id="phone" name="phone"><br><br>
+      <h3>Program Preferences:</h3>
+      <label for="program-preferences">Which programs are you interested in?</label>
+      <input type="checkbox" id="program-1" name="program-preferences" value="Program 1">
+      <label for="program-1">Program 1</label>
+      <input type="checkbox" id="program-2" name="program-preferences" value="Program 2">
+      <label for="program-2">Program 2</label>
+      <input type="checkbox" id="program-3" name="program-preferences" value="Program 3">
+      <label for="program-3">Program 3</label>
+      <br><br>
+      <h3>How did you hear about us?</h3>
+      <label for="hear-about-us">How did you hear about us?</label>
+      <select id="hear-about-us" name="hear-about-us">
+        <option value="Social Media">Social Media</option>
+        <option value="Friend or Family">Friend or Family</option>
+        <option value="Online Search">Online Search</option>
+        <option value="Other">Other</option>
+      </select>
+      <br><br>
+      <h3>What are your goals for using our program?</h3>
+      <label for="program-goals">What are your goals for using our program?</label>
+      <textarea id="program-goals" name="program-goals"></textarea>
+      <br><br>
+      <input type="submit" value="Register">
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
