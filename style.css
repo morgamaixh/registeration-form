@@ -47,3 +47,14 @@ body {
   input[type="submit"]:hover {
     background-color: #029215;
   }
+@media (max-width: 768px){
+     .container {
+    width: 100%;
+    margin: 0px auto;
+    background-color: #fff;
+    padding: 0px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+    
+}
